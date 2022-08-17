@@ -36,3 +36,9 @@ MyHaikuModule
 # Transformed(init=<function without_state>, apply=<function without_state>)
 ```
 
+# Installation
+
+Install flaxify using pip:
+```
+pip install git+https://github.com/smonsays/flaxify
+```
