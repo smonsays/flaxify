@@ -16,7 +16,7 @@ hk.transform(MyHaikuModule(10))
 # ValueError: All `hk.Module`s must be initialized inside an `hk.transform`.
 
 def forward(input):
-    return MyHaikuModule(10)
+    return MyHaikuModule(10)(input)
 
 hk.transform(forward)
 # Transformed(init=<function without_state>, apply=<function without_state>)
